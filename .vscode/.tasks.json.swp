@@ -1,0 +1,13 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "gcc build",
+            "command": "gcc",
+            "args": ["-g", "Aula.c", "-o", "Aula"],
+            "group": {"kind": "build", "isDefault": true},
+            "problemMatcher": "$gcc"
+        }
+    ]
+}sss

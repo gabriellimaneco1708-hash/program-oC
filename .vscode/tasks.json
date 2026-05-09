@@ -1,5 +1,22 @@
 {
+    "version": "2.0.0",
     "tasks": [
+        {
+            "type": "shell",
+            "label": "gcc build",
+            "command": "gcc",
+            "args": [
+                "-g",
+                "Aula.c",
+                "-o",
+                "Aula"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "problemMatcher": "$gcc"
+        },
         {
             "type": "cppbuild",
             "label": "C/C++: gcc arquivo de build ativo",
@@ -23,6 +40,5 @@
             },
             "detail": "Tarefa gerada pelo Depurador."
         }
-    ],
-    "version": "2.0.0"
+    ]
 }
